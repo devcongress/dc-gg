@@ -1,0 +1,32 @@
+{
+    // setting the manifest version
+  "manifest_version": 2,
+  "name": "Nested Loops",
+  "version": "0.1",
+  "description": "Get all news posted on DevCongress from your address bar.",
+//  "icons": { "16": "icons/icon16.png",
+//             "48": "icons/icon48.png",
+//            "128": "icons/icon128.png" },
+  // "default_locale": "en",
+  //added content_security_policy as a way to allow cross domain downloads of js scripts
+  "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'",
+  "browser_action": {
+    //"default_icon":  "icons/icon16.png", 
+    // "default_title": "dc@gg",    
+    "default_popup": "src/popup.html" 
+  },
+  // PERMISSIONS
+  "permissions": [
+    "http://*/",
+    "idle",
+    "tabs"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["http://groups.google.com/forum/feed/devcongress"],
+      "css": ["src/style.css"],
+      "js": ["src/popup.js"]
+    }
+  ]
+}
