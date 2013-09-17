@@ -1,11 +1,8 @@
-#Nested Loop (Chrome extension)
+#dc@gg (Chrome extension)
 Add this to your Chrome. No seriously, add this to your Google Chrome.
 
 ##Overview
-A Google Chrome extension to fetch posts from the official [devcongress blog](http://news.devcongress.com).
-
-##Contributions
-You can contribute code to the `develop` branch and your code shall approved and added to `master` (which is more stable).
+A Google Chrome extension to fetch posts from the [DevCongress Google Groups feeds](https://groups.google.com/forum/#!forum/devcongress).
 
 ##Testing
 If you want to help test this extension please follow these simple step:
