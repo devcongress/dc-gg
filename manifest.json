@@ -1,9 +1,9 @@
 {
     // setting the manifest version
   "manifest_version": 2,
-  "name": "Nested Loops",
+  "name": "dc@gg",
   "version": "0.1",
-  "description": "Get all news posted on DevCongress from your address bar.",
+  "description": "A simple feed reader from DevCongress' Google Groups forum.",
 //  "icons": { "16": "icons/icon16.png",
 //             "48": "icons/icon48.png",
 //            "128": "icons/icon128.png" },
