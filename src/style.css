@@ -1,11 +1,10 @@
 body {
-    background-color:#C50F4D;
     font-size: 13pt;
     text-align: center;
     width:300px;
     padding:none;
     line-height: 100%;
-    background:#C50F4D center;
+    background:#FAFAFA center;
 }
 a:link, a:active, a:visited {
     color:#F9CF43;
@@ -13,8 +12,7 @@ a:link, a:active, a:visited {
     -webkit-transition: all 0.3s ease-in-out;
 }
 a:hover {
-    color:#fff;
-    text-decoration:none;
+    text-decoration:underline;
 }
 .error {
   white-space: nowrap;
@@ -22,7 +20,7 @@ a:hover {
 }
 #title{
     font-size:20pt;
-    color: #fff;
+    color: #212121;
     padding: 5px;
     text-align:center;
     margin:auto;
@@ -34,6 +32,13 @@ a:hover {
     text-align: left;
     padding:none;
 }
+
+#inner h5 {
+	font-size: 11pt;
+	margin-bottom: 4px;
+}
+
+
 #name {
     color:#ddd;
     font-size:10pt;
@@ -43,3 +48,11 @@ a:hover {
 ::-webkit-scrollbar-track {background-color:#fff;}
 ::-webkit-scrollbar-thumb {background-color:#f2f2f2;}
 ::-webkit-scrollbar {width:5px;}
+
+#dev-color {
+	color: #EA148C;
+}
+
+#gg-color {
+	color: #1167E8;
+}
